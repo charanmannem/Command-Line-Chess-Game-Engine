@@ -557,7 +557,7 @@ class ChessGame {
 // Main
 public class ChessMain {
     public static void main(String[] args){
-        ChessGame game=new ChessGame("Alice (White)","Bob (Black)");
+        ChessGame game=new ChessGame("Player 1 (White)","Player 2 (Black)");
         Scanner scanner=new Scanner(System.in);
         System.out.println("Chess Game Started!");
         System.out.println("Enter moves like: e2 e4");
